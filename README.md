@@ -13,9 +13,9 @@ Begin by importing the package:
 
     import "github.com/interzoid/fullnamesimkey-go"
 
-Then, feed the information into the GetScore() method:
+Then, feed the information into the GetSimKey() method:
 
-    score, code, credits, err := FullNameMatchScore.GetScore("YOUR-API-KEY","Jim Smith")
+    score, code, credits, err := FullNameSimKey.GetSimKey("YOUR-API-KEY","Jim Smith")
 
 
 The return values will be the similarity key, a code (success or failure), how many remaining credits on your API key, and any error messages. The similarity key can be used to search for other similar names, to sort large datasets by similarity, and perhaps use additional attributes to identify duplicates/redundancy.

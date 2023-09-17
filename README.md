@@ -11,9 +11,13 @@ To generate the similarity key, you will need the following information:
 - an API License key, available at https://www.interzoid.com
 - an individual full name to generate the similarity key for
 
-Begin by importing the package:
+Begin by retrieving the package:
 
-    import "github.com/interzoid/fullnamesimkey-go"
+    go get "github.com/interzoid/fullnamesimkey-go"
+
+import the package in to your code:
+
+    import "github.com/interzoid/fullnamesimkey-go"    
 
 Then, feed the information into the GetSimKey() method:
 
